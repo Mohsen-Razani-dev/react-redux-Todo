@@ -1,0 +1,91 @@
+//CreateTask
+.InsertTaskHeader{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.insertTodoInput {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.todoList {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  max-height: 100vh;
+  .createTask {
+    padding: 20px 100px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    border-right: 1px solid #f5f5f5;
+  }
+  .TaskList{
+    padding: 20px 100px;
+    height: 100%;
+    min-height: 100vh;
+    overflow: scroll;
+    max-height: 100vh;
+  }
+}
+//
+
+//Todolist
+.todolistRightSide{
+  .todoHeader {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  .todoContainer {
+    width: 100%;
+    .tasks{
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+//Task
+.task{
+  transition: 700ms all ease-out;
+  display: grid;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #ffffff;
+  .title{
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+  }
+  .descr{
+    text-align: center;
+    height: 70px;
+    overflow: scroll;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+  }
+  .btnState{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button{
+      background-color: transparent;
+      outline: none;
+      width: 50px;
+      i{
+        font-size: 24px;
+      }
+    }
+  }
+}

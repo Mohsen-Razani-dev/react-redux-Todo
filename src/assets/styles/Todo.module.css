@@ -1,0 +1,89 @@
+.InsertTaskHeader {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.insertTodoInput {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.todoList {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  max-height: 100vh;
+}
+.todoList .createTask {
+  padding: 20px 100px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  border-right: 1px solid #f5f5f5;
+}
+.todoList .TaskList {
+  padding: 20px 100px;
+  height: 100%;
+  min-height: 100vh;
+  overflow: scroll;
+  max-height: 100vh;
+}
+
+.todolistRightSide .todoHeader {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+.todolistRightSide .todoContainer {
+  width: 100%;
+}
+.todolistRightSide .todoContainer .tasks {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task {
+  transition: 700ms all ease-out;
+  display: grid;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #ffffff;
+}
+.task .title {
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+}
+.task .descr {
+  text-align: center;
+  height: 70px;
+  overflow: scroll;
+  font-size: 16px;
+  font-family: Gilroy-Medium;
+}
+.task .btnState {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.task .btnState button {
+  background-color: transparent;
+  outline: none;
+  width: 50px;
+}
+.task .btnState button i {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=Todo.module.css.map */

@@ -1,0 +1,8 @@
+.react-reveal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rs-divider-horizontal{
+    margin: 15px 0;
+}
